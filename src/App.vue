@@ -22,6 +22,7 @@ html {
 
 button {
   cursor: pointer;
+  border: none;
 }
 
 #app {

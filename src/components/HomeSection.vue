@@ -41,6 +41,15 @@
         </div>
       </div>
     </section>
+
+    <div class="section-text-3">
+      <div class="section-text-sm">
+        <img src="../assets/section-text-sm-3.svg" alt="" />
+      </div>
+      <div class="section-text-lg-3">
+        <img src="../assets/section-text-lg-3.svg" alt="" />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -60,7 +69,8 @@ export default {};
 }
 
 .section-text-lg-1,
-.section-text-lg-2 {
+.section-text-lg-2,
+.section-text-lg-3 {
   display: none;
 }
 
@@ -116,6 +126,20 @@ export default {};
   .section-text-lg-2 {
     top: -2rem;
     right: 55rem;
+  }
+
+  .section-text-3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+  }
+
+  .section-text-lg-3 {
+    display: block;
+    width: 9rem;
+    height: 32rem;
   }
 
   .section-img img {
