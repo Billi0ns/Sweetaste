@@ -18,6 +18,9 @@
 
 html {
   font-size: 62.5%;
+
+  // This to prevent scrollbar from affecting the width
+  width: 100vw;
 }
 
 button {

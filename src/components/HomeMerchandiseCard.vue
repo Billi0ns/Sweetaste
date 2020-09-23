@@ -1,7 +1,6 @@
 <template>
-  <div class="container">
+  <div class="home-card-container">
     <merchandise-card :imageName="imageName1"></merchandise-card>
-
     <merchandise-card
       class="second-item"
       :imageName="imageName2"
@@ -31,10 +30,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.container {
+.home-card-container {
   width: 90%;
   max-width: 40rem;
   margin: 0 auto;
+  margin-bottom: 3rem;
   display: flex;
 }
 
@@ -44,7 +44,7 @@ export default {
 }
 
 @media screen and (min-width: 700px) {
-  .container {
+  .home-card-container {
     max-width: 100rem;
     gap: 2rem;
   }

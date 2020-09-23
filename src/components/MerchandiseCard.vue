@@ -37,7 +37,6 @@ img {
 
 .card {
   width: 100%;
-  margin-bottom: 3rem;
 }
 
 .card-image {
@@ -96,5 +95,3 @@ img {
   font-weight: bold;
 }
 </style>
-
-//TODO Implement hover on image and scale it!!!

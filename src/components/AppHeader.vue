@@ -3,13 +3,16 @@
     <div class="menu">
       <i class="fas fa-bars fa-2x"></i>
     </div>
-    <img class="logo" src="../assets/logo.png" alt="" />
+    <router-link to="/">
+      <img class="logo" src="../assets/logo.png" alt="" />
+    </router-link>
+
     <div class="header__right">
       <nav>
         <ul>
-          <li>首頁</li>
-          <li>甜點</li>
-          <li>登入</li>
+          <router-link to="/" tag="li">首頁</router-link>
+          <router-link to="/products" tag="li">甜點</router-link>
+          <router-link to="/login" tag="li">登入</router-link>
         </ul>
       </nav>
       <div class="cart">
@@ -35,6 +38,7 @@ header {
 .menu {
   padding-left: 2rem;
 }
+
 .cart {
   padding-right: 2rem;
 }
@@ -48,6 +52,7 @@ li,
 .cart {
   cursor: pointer;
 }
+
 .header__right {
   display: flex;
   align-items: center;
@@ -84,7 +89,6 @@ li,
   }
   .cart {
     margin: 2rem;
-    //padding-right: 4rem;
   }
 }
 </style>
