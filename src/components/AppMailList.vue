@@ -36,7 +36,6 @@ export default {};
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
 }
 
 .title {
@@ -44,8 +43,9 @@ export default {};
   justify-content: center;
   align-items: center;
   color: #eaf0ed;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   width: 100%;
+  margin-bottom: 3rem;
 }
 
 .logo {
@@ -77,6 +77,7 @@ input {
   max-width: 25rem;
   text-indent: 5rem;
   font-size: 1.5rem;
+  border-radius: 0;
 }
 
 button::after {
@@ -112,6 +113,7 @@ button {
   .title {
     justify-content: flex-start;
     font-size: 2rem;
+    margin-bottom: 0;
   }
 
   form {

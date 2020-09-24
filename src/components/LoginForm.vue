@@ -81,7 +81,6 @@ export default {};
 
 .form-inputs-area {
   display: flex;
-  gap: 1.5rem;
   flex-direction: column;
 }
 
@@ -89,6 +88,7 @@ export default {};
   background: #eaf0ed;
   display: flex;
   align-items: center;
+  margin-bottom: 1.5rem;
 }
 
 #login-account,
