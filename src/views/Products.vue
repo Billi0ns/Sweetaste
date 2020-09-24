@@ -21,7 +21,7 @@ import ProductsList from '@/components/ProductsList.vue';
 import ProductsMerchandiseCard from '@/components/ProductsMerchandiseCard.vue';
 
 export default {
-  name: 'Home',
+  name: 'Products',
   components: {
     AppHeader,
     AppMailList,

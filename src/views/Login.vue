@@ -1,6 +1,7 @@
 <template>
-  <div class="product">
+  <div class="login">
     <app-header></app-header>
+    <login-form></login-form>
     <app-mail-list></app-mail-list>
     <app-footer></app-footer>
   </div>
@@ -11,13 +12,15 @@
 import AppHeader from '@/components/AppHeader.vue';
 import AppMailList from '@/components/AppMailList.vue';
 import AppFooter from '@/components/AppFooter.vue';
+import LoginForm from '@/components/LoginForm.vue';
 
 export default {
-  name: 'Home',
+  name: 'Login',
   components: {
     AppHeader,
     AppMailList,
     AppFooter,
+    LoginForm,
   },
 };
 </script>
