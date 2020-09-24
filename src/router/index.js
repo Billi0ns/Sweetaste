@@ -5,6 +5,7 @@ import Home from '../views/Home.vue';
 // Lazy loading
 const Products = () => import('../views/Products.vue');
 const Login = () => import('../views/Login.vue');
+const Cart = () => import('../views/Cart.vue');
 
 Vue.use(VueRouter);
 
@@ -23,6 +24,11 @@ const routes = [
     path: '/login',
     name: 'Login',
     component: Login,
+  },
+  {
+    path: '/cart',
+    name: 'Cart',
+    component: Cart,
   },
 ];
 
