@@ -32,7 +32,9 @@
             </div>
           </div>
         </div>
-        <button class="form-button" id="login-btn-lg">登入帳號</button>
+        <button class="form-button" id="login-btn-lg" @click.prevent>
+          登入帳號
+        </button>
       </div>
 
       <div class="third-party-login">

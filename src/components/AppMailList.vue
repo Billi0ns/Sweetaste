@@ -10,7 +10,7 @@
           <input type="email" />
           <i class="fas fa-envelope fa-2x"></i>
         </div>
-        <button></button>
+        <button @click.prevent></button>
       </form>
     </div>
   </div>

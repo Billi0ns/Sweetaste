@@ -16,7 +16,9 @@
       </div>
     </div>
 
-    <button class="checkout-button">結帳</button>
+    <router-link to="/checkout-1" tag="button" class="checkout-button">
+      結帳
+    </router-link>
   </div>
 </template>
 

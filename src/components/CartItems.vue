@@ -182,6 +182,7 @@ export default {};
     justify-content: space-between;
     border-bottom: 1px solid #eaf0ed;
   }
+
   .cart-item-image {
     width: 11rem;
     height: 11rem;
