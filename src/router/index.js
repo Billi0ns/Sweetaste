@@ -7,6 +7,9 @@ const Products = () => import('../views/Products.vue');
 const Login = () => import('../views/Login.vue');
 const Cart = () => import('../views/Cart.vue');
 const Checkout1 = () => import('../views/Checkout-1.vue');
+const Checkout2 = () => import('../views/Checkout-2.vue');
+const Checkout3 = () => import('../views/Checkout-3.vue');
+const CheckoutSuccess = () => import('../views/Checkout-success.vue');
 
 Vue.use(VueRouter);
 
@@ -35,6 +38,21 @@ const routes = [
     path: '/checkout-1',
     name: 'Checkout1',
     component: Checkout1,
+  },
+  {
+    path: '/checkout-2',
+    name: 'Checkout2',
+    component: Checkout2,
+  },
+  {
+    path: '/checkout-3',
+    name: 'Checkout3',
+    component: Checkout3,
+  },
+  {
+    path: '/checkout-success',
+    name: 'CheckoutSuccess',
+    component: CheckoutSuccess,
   },
 ];
 

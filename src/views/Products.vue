@@ -1,5 +1,5 @@
 <template>
-  <div class="product">
+  <div>
     <app-header></app-header>
     <products-cover></products-cover>
     <div class="merchandise-container">

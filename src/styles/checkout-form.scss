@@ -1,0 +1,83 @@
+@import '../styles/form-progress-bar.scss';
+
+.form {
+  color: #eaf0ed;
+  max-width: 62rem;
+  margin: 0 auto;
+}
+
+.form label {
+  font-size: 2rem;
+}
+
+.form input {
+  font-size: 1.6rem;
+  background: #eaf0ed;
+  color: #8da291;
+  border: none;
+  width: 100%;
+  height: 5rem;
+  margin-top: 1rem;
+  text-indent: 2rem;
+}
+
+.form-container {
+  background: #3f5d45;
+  padding: 3rem;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.multi-input-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-input {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.left-input,
+.right-input {
+  width: 50%;
+}
+
+.left-input {
+  padding-right: 0.5rem;
+}
+
+.right-input {
+  padding-left: 0.5rem;
+}
+
+.next-button {
+  width: 100%;
+  background: #ffe180;
+  color: #3f5d45;
+  font-size: 2.4rem;
+  font-weight: bold;
+  padding: 1.6rem 0;
+}
+
+@media screen and (min-width: 620px) {
+  .form {
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .form {
+    margin: 0;
+  }
+}

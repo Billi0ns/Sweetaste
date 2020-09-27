@@ -1,5 +1,5 @@
 <template>
-  <div class="checkout-1">
+  <div>
     <app-header></app-header>
     <div class="checkout-container">
       <checkout-address></checkout-address>
@@ -19,7 +19,7 @@ import CheckoutAddress from '@/components/CheckoutAddress.vue';
 import CheckoutSidebar from '@/components/CheckoutSidebar.vue';
 
 export default {
-  name: 'Login',
+  name: 'Checkout-1',
   components: {
     AppHeader,
     AppMailList,

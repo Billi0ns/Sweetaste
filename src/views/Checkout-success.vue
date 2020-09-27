@@ -1,7 +1,7 @@
 <template>
   <div>
     <app-header></app-header>
-    <login-form></login-form>
+    <div class="checkout-container"></div>
     <app-mail-list></app-mail-list>
     <app-footer></app-footer>
   </div>
@@ -12,15 +12,15 @@
 import AppHeader from '@/components/AppHeader.vue';
 import AppMailList from '@/components/AppMailList.vue';
 import AppFooter from '@/components/AppFooter.vue';
-import LoginForm from '@/components/LoginForm.vue';
 
 export default {
-  name: 'Login',
+  name: 'Checkout-success',
   components: {
     AppHeader,
     AppMailList,
     AppFooter,
-    LoginForm,
   },
 };
 </script>
+
+<style lang="scss" scoped></style>
