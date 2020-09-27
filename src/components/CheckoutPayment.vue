@@ -44,20 +44,20 @@
 
         <div class="multi-input-container">
           <div class="form-input left-input">
-            <label for="expiration">有效期限</label>
+            <label for="expiration-month">有效期限</label>
             <input
               type="text"
-              name="expiration"
-              id="expiration"
+              name="expiration-month"
+              id="expiration-month"
               placeholder="月"
             />
           </div>
           <div class="form-input right-input">
-            <label for="firstname" class="hidden">有效期限（年）</label>
+            <label for="expiration-year" class="hidden">有效期限（年）</label>
             <input
               type="text"
-              name="firstname"
-              id="firstname"
+              name="expiration-year"
+              id="expiration-year"
               placeholder="年"
             />
           </div>
@@ -65,11 +65,11 @@
 
         <div class="multi-input-container">
           <div class="form-input left-input">
-            <label for="lastname">背面末三碼</label>
+            <label for="security-code">背面末三碼</label>
             <input
               type="text"
-              name="lastname"
-              id="lastname"
+              name="security-code"
+              id="security-code"
               placeholder="123"
             />
           </div>

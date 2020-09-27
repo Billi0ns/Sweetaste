@@ -63,8 +63,8 @@
 
             <input
               type="text"
-              name="firstname"
-              id="firstname"
+              name="district"
+              id="district"
               placeholder="新興區"
             />
           </div>
@@ -73,8 +73,8 @@
         <div class="form-input">
           <input
             type="text"
-            name="firstname"
-            id="firstname"
+            name="street"
+            id="street"
             placeholder="幸福路520號"
           />
         </div>

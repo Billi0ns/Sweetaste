@@ -45,11 +45,11 @@
             <input type="text" name="city" id="city" placeholder="高雄市" />
           </div>
           <div class="form-input right-input">
-            <label for="firstname" class="hidden">區域</label>
+            <label for="district" class="hidden">區域</label>
             <input
               type="text"
-              name="firstname"
-              id="firstname"
+              name="district"
+              id="district"
               placeholder="新興區"
             />
           </div>
@@ -57,8 +57,8 @@
 
         <input
           type="text"
-          name="firstname"
-          id="firstname"
+          name="street"
+          id="street"
           placeholder="幸福路520號"
         />
       </div>
