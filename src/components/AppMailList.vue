@@ -7,7 +7,7 @@
       </div>
       <form action="">
         <div class="input-area">
-          <input type="email" />
+          <input type="email" placeholder="example@email.com" />
           <i class="fas fa-envelope fa-2x"></i>
         </div>
         <button @click.prevent></button>
