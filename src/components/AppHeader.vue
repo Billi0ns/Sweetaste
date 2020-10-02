@@ -60,12 +60,12 @@ header {
 
 .menu {
   padding-left: 2rem;
-  color: #3f5d45;
+  color: $green;
 }
 
 .cart {
   padding-right: 2rem;
-  color: #3f5d45;
+  color: $green;
 }
 
 nav {
@@ -89,8 +89,8 @@ nav {
   justify-content: center;
   align-items: center;
   font-size: 1.6rem;
-  color: #3f5d45;
-  border-bottom: 1px solid #3f5d45;
+  color: $green;
+  border-bottom: 1px solid $green;
 }
 
 li,

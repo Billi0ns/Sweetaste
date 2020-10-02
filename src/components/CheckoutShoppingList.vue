@@ -35,8 +35,8 @@ export default {};
 
 <style lang="scss" scoped>
 .shopping-list-header {
-  background: #eaf0ed;
-  color: #8da291;
+  background: $white;
+  color: $dirty-green;
   font-size: 2.4rem;
   font-weight: bold;
   padding: 1.6rem 0;
@@ -44,8 +44,8 @@ export default {};
 
 .shopping-list-container {
   padding: 2rem;
-  color: #8da291;
-  border: 1px solid #eaf0ed;
+  color: $dirty-green;
+  border: 1px solid $white;
 }
 
 .shopping-list-item {
@@ -61,7 +61,7 @@ export default {};
 
 .shopping-list-description {
   width: 100%;
-  color: #8da291;
+  color: $dirty-green;
   display: flex;
   flex-direction: column;
   justify-content: center;

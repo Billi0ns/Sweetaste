@@ -24,7 +24,7 @@ export default {};
 
 <style lang="scss" scoped>
 .container {
-  background: #3f5d45;
+  background: $green;
   height: 19rem;
   display: flex;
   flex-direction: column;
@@ -44,7 +44,7 @@ export default {};
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #eaf0ed;
+  color: $white;
   font-size: 1.8rem;
   width: 100%;
   margin-bottom: 3rem;
@@ -91,18 +91,18 @@ button::after {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   content: '\f061';
-  color: #3f5d45;
+  color: $green;
 }
 
 i {
   position: absolute;
   top: 1.5rem;
   left: 1.5rem;
-  color: #3f5d45;
+  color: $green;
 }
 
 button {
-  background: #ffe180;
+  background: $yellow;
   width: 6.4rem;
 }
 

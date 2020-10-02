@@ -51,7 +51,7 @@ img {
   left: 2.1rem;
   writing-mode: vertical-rl;
   letter-spacing: 2px;
-  background: #3f5d45;
+  background: $green;
   padding: 1rem;
   color: white;
   font-size: 1.5rem;
@@ -70,13 +70,13 @@ img {
   grid-template-columns: 58% 1fr;
   align-items: center;
   font-size: 2rem;
-  color: #3f5d45;
-  border: 1px solid #eaf0ed;
+  color: $green;
+  border: 1px solid $white;
 }
 
 .item-name {
   height: 100%;
-  border-right: 1px solid #eaf0ed;
+  border-right: 1px solid $white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,8 +89,8 @@ img {
 .card-button {
   width: 100%;
   height: 5.5rem;
-  background: #eaf0ed;
-  color: #3f5d45;
+  background: $white;
+  color: $green;
   font-size: 2.4rem;
   font-weight: bold;
 }

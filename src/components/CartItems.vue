@@ -73,11 +73,11 @@ export default {};
 
 <style lang="scss" scoped>
 .cart-items-header {
-  background: #eaf0ed;
+  background: $white;
   height: 6.5rem;
   font-size: 2.4rem;
   font-weight: bold;
-  color: #3f5d45;
+  color: $green;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,7 +94,7 @@ export default {};
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.6rem;
-  border-bottom: 1px solid #eaf0ed;
+  border-bottom: 1px solid $white;
   margin-bottom: 1rem;
 }
 
@@ -119,7 +119,7 @@ export default {};
   display: flex;
   justify-content: start;
   align-items: center;
-  color: #3f5d45;
+  color: $green;
 }
 
 .cart-item-name {
@@ -132,7 +132,7 @@ export default {};
 
 .cart-item-amount {
   display: flex;
-  border: 1px solid #eaf0ed;
+  border: 1px solid $white;
   margin-top: 0.5rem;
   width: 14.4rem;
   height: 4.8rem;
@@ -152,17 +152,17 @@ export default {};
 }
 
 .amount-number {
-  border-left: 1px solid #eaf0ed;
-  border-right: 1px solid #eaf0ed;
+  border-left: 1px solid $white;
+  border-right: 1px solid $white;
 }
 
 .item-price-total {
-  color: #3f5d45;
+  color: $green;
   font-size: 2rem;
   font-weight: bold;
   text-align: end;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #eaf0ed;
+  border-bottom: 1px solid $white;
 }
 
 @media screen and (min-width: 620px) {
@@ -180,7 +180,7 @@ export default {};
   .cart-item {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #eaf0ed;
+    border-bottom: 1px solid $white;
   }
 
   .cart-item-image {

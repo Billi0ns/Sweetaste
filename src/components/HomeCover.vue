@@ -58,7 +58,7 @@ img {
   cursor: pointer;
 
   &:hover {
-    color: #3f5d45;
+    color: $green;
   }
 }
 
@@ -90,7 +90,7 @@ img {
 }
 
 .link:hover::after {
-  background: #ffe180;
+  background: $yellow;
   opacity: 0.7;
 }
 

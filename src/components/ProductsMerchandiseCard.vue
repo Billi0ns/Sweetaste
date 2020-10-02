@@ -92,17 +92,17 @@ export default {
 .page-selector div {
   width: 6rem;
   height: 6rem;
-  border: 1px solid #eaf0ed;
+  border: 1px solid $white;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  color: #3f5d45;
+  color: $green;
 }
 
 #page-selected {
-  background: #3f5d45;
-  color: #eaf0ed;
+  background: $green;
+  color: $white;
 }
 
 @media screen and (min-width: 600px) {

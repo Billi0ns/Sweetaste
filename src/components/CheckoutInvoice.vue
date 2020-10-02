@@ -111,15 +111,15 @@ export default {
 }
 
 .invoice-item {
-  border: 1px solid #eaf0ed;
+  border: 1px solid $white;
   padding: 1.5rem;
   width: 100%;
   cursor: pointer;
 }
 
 .invoiceActive {
-  background: #eaf0ed;
-  color: #3f5d45;
+  background: $white;
+  color: $green;
 }
 
 .checkbox-area {

@@ -82,8 +82,8 @@ export default {};
 }
 
 .section-paragraph {
-  background: #eaf0ed;
-  color: #8da291;
+  background: $white;
+  color: $dirty-green;
   padding: 3rem;
   font-size: 1.6rem;
   text-align: left;
@@ -95,7 +95,7 @@ export default {};
   }
 
   section {
-    background: #eaf0ed;
+    background: $white;
     margin-bottom: 8rem;
   }
 

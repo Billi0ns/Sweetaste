@@ -71,8 +71,8 @@ export default {};
 .form-input-container {
   padding: 0 3rem;
   padding-bottom: 2rem;
-  background: #3f5d45;
-  color: #eaf0ed;
+  background: $green;
+  color: $white;
 }
 
 .form-header {
@@ -87,7 +87,7 @@ export default {};
 }
 
 .form-input {
-  background: #eaf0ed;
+  background: $white;
   display: flex;
   align-items: center;
   margin-bottom: 1.5rem;
@@ -97,7 +97,7 @@ export default {};
 #login-password {
   width: 100%;
   height: 5.6rem;
-  background: #eaf0ed;
+  background: $white;
   border: none;
   text-indent: 2rem;
   outline: none;
@@ -105,7 +105,7 @@ export default {};
 }
 
 .input-icon {
-  color: #3f5d45;
+  color: $green;
   width: 5rem;
   height: 5rem;
   display: flex;
@@ -129,7 +129,7 @@ export default {};
 
 .third-party-login {
   height: 11.6rem;
-  background: #eaf0ed;
+  background: $white;
 }
 
 .third-party-login-header {
@@ -164,8 +164,8 @@ export default {};
 .form-button {
   width: 100%;
   height: 6rem;
-  background: #ffe180;
-  color: #3f5d45;
+  background: $yellow;
+  color: $green;
   font-size: 2.4rem;
   font-weight: bold;
 }
@@ -209,7 +209,7 @@ export default {};
   .third-party-login-header {
     display: block;
     font-size: 2.4rem;
-    color: #8da291;
+    color: $dirty-green;
     margin-bottom: 3rem;
   }
 

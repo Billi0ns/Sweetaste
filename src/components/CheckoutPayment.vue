@@ -98,6 +98,6 @@ export default {};
   position: absolute;
   top: 2.5rem;
   right: 1rem;
-  color: #3f5d45;
+  color: $green;
 }
 </style>

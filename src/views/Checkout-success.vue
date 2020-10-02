@@ -67,16 +67,16 @@ export default {
 }
 
 .checked-circle {
-  background: #3f5d45;
-  border: 1px solid #3f5d45;
+  background: $green;
+  border: 1px solid $green;
 
   &::after {
-    color: #eaf0ed;
+    color: $white;
   }
 }
 
 .progress-bar-border-line {
-  border: 1px solid #3f5d45;
+  border: 1px solid $green;
   width: 6.6rem;
 }
 
@@ -87,8 +87,8 @@ export default {
 .next-button-mobile,
 .next-button-desktop {
   width: 100%;
-  background: #ffe180;
-  color: #3f5d45;
+  background: $yellow;
+  color: $green;
   font-size: 2.4rem;
   font-weight: bold;
   padding: 1.6rem 0;

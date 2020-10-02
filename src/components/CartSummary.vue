@@ -6,6 +6,7 @@
         <div>小計</div>
         <div>NT$2,700</div>
       </div>
+
       <div class="cart-summary-fee">
         <div>運費</div>
         <div>NT$300</div>
@@ -29,11 +30,11 @@ export default {};
 <style lang="scss" scoped>
 .cart-summary-container {
   padding: 2rem;
-  color: #3f5d45;
+  color: $green;
 }
 
 .cart-summary-header {
-  background: #eaf0ed;
+  background: $white;
   font-size: 2.4rem;
   font-weight: bold;
   padding: 1.6rem 0;
@@ -58,8 +59,8 @@ export default {};
 
 .checkout-button {
   width: 100%;
-  background: #ffe180;
-  color: #3f5d45;
+  background: $yellow;
+  color: $green;
   font-size: 2.4rem;
   font-weight: bold;
   padding: 1.6rem 0;
@@ -67,13 +68,13 @@ export default {};
 
 @media screen and (min-width: 900px) {
   .cart-summary-container {
-    background: #3f5d45;
-    color: #eaf0ed;
+    background: $green;
+    color: $white;
   }
 
   .cart-summary-header {
-    background: #3f5d45;
-    border-bottom: 1px solid #eaf0ed;
+    background: $green;
+    border-bottom: 1px solid $white;
   }
 }
 </style>

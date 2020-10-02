@@ -22,7 +22,7 @@ export default {};
 li {
   font-size: 2rem;
   font-weight: bold;
-  color: #3f5d45;
+  color: $green;
   height: 5rem;
   display: flex;
   justify-content: center;
@@ -30,16 +30,16 @@ li {
 }
 
 li:first-child {
-  background: #3f5d45;
-  color: #eaf0ed;
+  background: $green;
+  color: $white;
 }
 
 li:not(:first-child) {
-  border: 1px solid #eaf0ed;
+  border: 1px solid $white;
   cursor: pointer;
 
   &:hover {
-    background: #eaf0ed;
+    background: $white;
   }
 }
 
