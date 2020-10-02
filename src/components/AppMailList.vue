@@ -6,11 +6,13 @@
         <div>訂閱你我的甜蜜郵件</div>
       </div>
       <form action="">
-        <div class="input-area">
-          <input type="email" placeholder="example@email.com" />
-          <i class="fas fa-envelope fa-2x"></i>
+        <div class="form-container">
+          <div class="input-area">
+            <input type="email" placeholder="example@email.com" />
+            <i class="fas fa-envelope fa-2x"></i>
+          </div>
+          <button @click.prevent></button>
         </div>
-        <button @click.prevent></button>
       </form>
     </div>
   </div>
@@ -60,6 +62,12 @@ form {
   width: 90%;
 }
 
+.form-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
 .input-area {
   position: relative;
   width: 100%;
@@ -74,7 +82,6 @@ button {
 
 input {
   width: 100%;
-  max-width: 25rem;
   text-indent: 5rem;
   font-size: 1.5rem;
   border-radius: 0;
@@ -118,6 +125,11 @@ button {
 
   form {
     justify-content: flex-end;
+    width: 100%;
+  }
+
+  .input-area {
+    max-width: 30rem;
   }
 }
 </style>
