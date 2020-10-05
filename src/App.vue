@@ -16,7 +16,7 @@ import AppMailList from '@/components/AppMailList.vue';
 import AppFooter from '@/components/AppFooter.vue';
 
 export default {
-  name: 'Home',
+  name: 'App',
   components: {
     AppHeader,
     AppMailList,
@@ -26,15 +26,6 @@ export default {
 </script>
 
 <style lang="scss">
-.component-fade-enter-active,
-.component-fade-leave-active {
-  transition: opacity 0.3s ease;
-}
-.component-fade-enter,
-.component-fade-leave-to {
-  opacity: 0;
-}
-
 *,
 *::before,
 *::after {
@@ -66,16 +57,12 @@ button {
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+.component-fade-enter-active,
+.component-fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+.component-fade-enter,
+.component-fade-leave-to {
+  opacity: 0;
 }
 </style>
