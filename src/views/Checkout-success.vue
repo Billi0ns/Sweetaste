@@ -1,6 +1,5 @@
 <template>
   <div>
-    <app-header></app-header>
     <div class="success-container">
       <div class="form-progress-bar">
         <div class="checked-circle"></div>
@@ -24,24 +23,12 @@
     <router-link to="/" tag="button" class="next-button-mobile">
       繼續逛逛
     </router-link>
-    <app-mail-list></app-mail-list>
-    <app-footer></app-footer>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import AppHeader from '@/components/AppHeader.vue';
-import AppMailList from '@/components/AppMailList.vue';
-import AppFooter from '@/components/AppFooter.vue';
-
 export default {
   name: 'Checkout-success',
-  components: {
-    AppHeader,
-    AppMailList,
-    AppFooter,
-  },
 };
 </script>
 

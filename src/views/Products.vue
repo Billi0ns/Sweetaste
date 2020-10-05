@@ -1,21 +1,15 @@
 <template>
   <div>
-    <app-header></app-header>
     <products-cover></products-cover>
     <div class="merchandise-container">
       <products-list></products-list>
       <products-merchandise-card></products-merchandise-card>
     </div>
-    <app-mail-list></app-mail-list>
-    <app-footer></app-footer>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import AppHeader from '@/components/AppHeader.vue';
-import AppMailList from '@/components/AppMailList.vue';
-import AppFooter from '@/components/AppFooter.vue';
 import ProductsCover from '@/components/ProductsCover.vue';
 import ProductsList from '@/components/ProductsList.vue';
 import ProductsMerchandiseCard from '@/components/ProductsMerchandiseCard.vue';
@@ -23,9 +17,6 @@ import ProductsMerchandiseCard from '@/components/ProductsMerchandiseCard.vue';
 export default {
   name: 'Products',
   components: {
-    AppHeader,
-    AppMailList,
-    AppFooter,
     ProductsCover,
     ProductsList,
     ProductsMerchandiseCard,

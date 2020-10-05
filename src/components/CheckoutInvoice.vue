@@ -31,59 +31,74 @@
         </div>
       </div>
 
-      <div class="form-input-area" v-if="eInvoice">
-        <div class="form-input">
-          <label for="email">電子郵件信箱</label>
-          <input
-            type="text"
-            name="email"
-            id="email"
-            placeholder="example@email.com"
-          />
-        </div>
-      </div>
-
-      <div class="form-input-area" v-else>
-        <div class="multi-input-container">
-          <div class="form-input left-input">
-            <label for="city">地址</label>
-
-            <input type="text" name="city" id="city" placeholder="高雄市" />
-          </div>
-          <div class="form-input right-input">
-            <div class="checkbox-area">
-              <input
-                type="checkbox"
-                name="sameAddress"
-                id="sameAddress"
-                class="sameAddress"
-              />
-              <div class="checkbox-label">同運送地址</div>
-            </div>
-
+      <transition name="fade" mode="out-in">
+        <div class="form-input-area" v-if="eInvoice" key="eInvoice">
+          <div class="form-input">
+            <label for="email">電子郵件信箱</label>
             <input
               type="text"
-              name="district"
-              id="district"
-              placeholder="新興區"
+              name="email"
+              id="email"
+              placeholder="example@email.com"
+            />
+          </div>
+          <div class="form-input">
+            <label for="tax-id">統一編號（選填）</label>
+            <input
+              type="text"
+              name="tax-id"
+              id="tax-id"
+              placeholder="12345678"
             />
           </div>
         </div>
 
-        <div class="form-input">
-          <input
-            type="text"
-            name="street"
-            id="street"
-            placeholder="幸福路520號"
-          />
-        </div>
-      </div>
+        <div class="form-input-area" v-else key="invoice">
+          <div class="multi-input-container">
+            <div class="form-input left-input">
+              <label for="city">地址</label>
 
-      <div class="form-input">
-        <label for="tax-id">統一編號（選填）</label>
-        <input type="text" name="tax-id" id="tax-id" placeholder="12345678" />
-      </div>
+              <input type="text" name="city" id="city" placeholder="高雄市" />
+            </div>
+            <div class="form-input right-input">
+              <div class="checkbox-area">
+                <input
+                  type="checkbox"
+                  name="sameAddress"
+                  id="sameAddress"
+                  class="sameAddress"
+                />
+                <div class="checkbox-label">同運送地址</div>
+              </div>
+
+              <input
+                type="text"
+                name="district"
+                id="district"
+                placeholder="新興區"
+              />
+            </div>
+          </div>
+
+          <div class="form-input">
+            <input
+              type="text"
+              name="street"
+              id="street"
+              placeholder="幸福路520號"
+            />
+          </div>
+          <div class="form-input">
+            <label for="tax-id">統一編號（選填）</label>
+            <input
+              type="text"
+              name="tax-id"
+              id="tax-id"
+              placeholder="12345678"
+            />
+          </div>
+        </div>
+      </transition>
     </div>
 
     <router-link to="/checkout-success" tag="button" class="next-button">
@@ -104,6 +119,16 @@ export default {
 
 <style lang="scss" scoped>
 @import '../styles/checkout-form.scss';
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
 .invoice-selector {
   display: flex;
   font-size: 2rem;
